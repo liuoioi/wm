@@ -270,7 +270,7 @@ img.mfp-img {
     margin: 0; }
 
 .mfp-bottom-bar {
-  margin-top: -36px;
+  margin-top: 8px;
   position: absolute;
   top: 100%;
   left: 0;
@@ -278,11 +278,11 @@ img.mfp-img {
   cursor: auto; }
 
 .mfp-title {
-  text-align: left;
+  text-align: center;
   line-height: 18px;
   color: #f3f3f3;
   word-wrap: break-word;
-  padding-right: 36px; }
+  padding-right: 0px; }
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
