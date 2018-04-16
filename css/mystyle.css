@@ -1,9 +1,7 @@
 html {
-	height:100% !important;
+	
 }
-body.x-ios {
-  -webkit-backface-visibility：hidden;
-}
+
 .work-d li a.disabled {
    pointer-events: none;
    cursor: default;
