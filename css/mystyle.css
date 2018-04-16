@@ -1,14 +1,13 @@
 html {
-	
+	height:100% !important;
 }
 
-.work-d li a.disabled {
-   pointer-events: none;
-   cursor: default;
-}
 body {
+	line-height: 1;
+	min-height:100%;
     margin: 0;
     padding: 0;
+	height:100% !important;
     font-size: 15px;
     font-family: \5FAE\8EDF\6B63\9ED1\9AD4, Microsoft, Arial, Helvetica, sans-serif;	
 }
@@ -404,11 +403,6 @@ main.page {
 	margin: 0px;
 	padding: 0px;
 	z-index: 10;
-}
-.work-d li:last-child:after {
-	content:"";
-	display: block;
-	clear: both;
 }
 .work-d li a {
 	position: relative;
