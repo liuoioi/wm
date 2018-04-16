@@ -1,5 +1,4 @@
-// wow-js
-new WOW().init();
+
 
 // 滾動menu 改變
 $(document).ready(function() {
@@ -51,6 +50,7 @@ $(function () {
   // initialize skrollr if the window width is large enough
   if ($(window).width() > 1025) {
     skrollr.init("#bg1");
+	  new WOW().init();
   }
 
   // disable skrollr if the window is resized below 768px wide
