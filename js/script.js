@@ -47,7 +47,7 @@ $('#toggle').click(function() {
 });
 
 
-$(function () {
+$(document).ready(function () {
   // initialize skrollr if the window width is large enough
   if ($(window).width() > 1025) {
     skrollr.init("#bg1");
