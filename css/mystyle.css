@@ -4,7 +4,7 @@ html {
 body.x-ios {
   -webkit-backface-visibility：hidden;
 }
-a.disabled {
+.work-d li a.disabled {
    pointer-events: none;
    cursor: default;
 }
