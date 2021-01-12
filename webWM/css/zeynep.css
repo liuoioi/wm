@@ -1,0 +1,216 @@
+/*
+  zeynepjs menu styles for demo
+*/
+html.zeynep-opened {
+	overflow-x: hidden;
+}
+
+html.zeynep-opened body {
+	position: fixed;
+	width: 100%;
+}
+
+html.zeynep-opened .zeynep {
+	pointer-events: auto;
+}
+
+.zeynep {
+	background-color: #ffffff;
+	bottom: 0;
+	color: #404143;
+	left: 0;
+	overflow: hidden;
+	overflow-y: auto;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	transform: translateX(-100%);
+	z-index: 9999999;
+	width: 0;
+	-webkit-overflow-scrolling: touch;
+}
+
+html:not(.no-transition) body,
+.zeynep:not(.no-transition),
+.zeynep .submenu:not(.no-transition) {
+	transition: all 375ms;
+	transition-property: left, right, transform;
+}
+
+.zeynep-overlay {
+	background-color: rgba(0, 0, 0, .42);;
+	bottom: 0;
+	display: none;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 999999;
+}
+
+.zeynep-opened .zeynep-overlay {
+	display: block;
+}
+
+.zeynep ul {
+  list-style-type: none;
+	padding: 0;
+	padding-left: 20px;
+	-webkit-overflow-scrolling: touch;
+}
+
+.zeynep ul > li {
+	display: block;
+}
+
+.zeynep ul > li.link {
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.zeynep ul > li .fb ,.zeynep ul > li .line,.zeynep ul > li .fb:hover ,.zeynep ul > li .line:hover{
+	display: inline-block;
+	border-radius: 6px;
+	padding: 0px;
+	margin: 10px;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.zeynep ul > li .fb img ,.zeynep ul > li .line img{
+	width: 36px;
+}
+
+.zeynep ul > li > a {
+	font-family: "Microsoft JhengHei";
+	color: inherit;
+	display: block;
+	font-size: 1rem;
+	font-weight: 400;
+	padding: 12px 20px;
+	text-decoration: none;
+	transition: all 150ms;
+}
+
+.zeynep ul > li > a:hover {
+	background-color: #efefef;
+	border-radius: 3px;
+}
+
+.zeynep ul > li:not(:last-child) > a {
+	border-bottom: 1px solid #efefef;
+}
+
+.zeynep ul > li.has-submenu > a {
+	background-image: url("https://cdn.jsdelivr.net/gh/hsynlms/zeynepjs/examples/images/submenu-arrow.svg?sanitize=true");
+	background-position: right 20px center;
+	background-repeat: no-repeat;
+	background-size: 8px 14px;
+}
+
+.zeynep ul > li.has-submenu > a:hover {
+	background-image: url("https://cdn.jsdelivr.net/gh/hsynlms/zeynepjs/examples/images/submenu-arrow-active.svg?sanitize=true");
+}
+
+/* zeynepjs submenu styles */
+.zeynep .submenu {
+	background-color: #ffffff;
+	bottom: 0;
+	left: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.zeynep .submenu.opened {
+	left: 0;
+}
+
+.zeynep .submenu-header {
+	background-image: url("https://cdn.jsdelivr.net/gh/hsynlms/zeynepjs/examples/images/menu-back.svg?sanitize=true");
+	background-position: left 20px center;
+	background-repeat: no-repeat;
+	background-size: 8px 14px;
+	border-bottom: solid 1px #efefef;
+	cursor: pointer;
+	position: relative;
+}
+
+.zeynep .submenu-header > a {
+	font-family: "Microsoft JhengHei";
+	color: inherit;
+	display: block;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 12px 20px;
+	padding-left: 40px;
+	text-decoration: none;
+}
+
+.zeynep .submenu-header > a:before {
+	background-image: url("https://cdn.jsdelivr.net/gh/hsynlms/zeynepjs/examples/images/submenu-arrow.svg?sanitize=true");
+	background-position: right 20px center;
+	background-repeat: no-repeat;
+	background-size: 8px 14px;
+	content: "";
+	height: 100%;
+	left: 26px;
+	position: absolute;
+	top: 0;
+	transform: rotate(-180deg);
+	width: 20px;
+}
+
+.zeynep .submenu > label {
+	color: #e77691;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-top: 19px;
+	opacity: .5;
+	padding-left: 40px;
+	width: 100%;
+}
+
+/*
+  general styles for demo
+*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+}
+
+body {
+}
+
+h1 {
+	font-size: 55px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: -3px;
+}
+
+h1 > span {
+	font-weight: 300;
+}
+
+.lead {
+	font-size: 16px;
+	line-height: 1.44;
+	max-width: 260px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}

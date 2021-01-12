@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'webfonts';
+  src:  url('fonts/webfonts.eot?5zlj8w');
+  src:  url('fonts/webfonts.eot?5zlj8w#iefix') format('embedded-opentype'),
+    url('fonts/webfonts.ttf?5zlj8w') format('truetype'),
+    url('fonts/webfonts.woff?5zlj8w') format('woff'),
+    url('fonts/webfonts.svg?5zlj8w#webfonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-speaker:before {
+  content: "\e91c";
+}
+.icon-qa:before {
+  content: "\e91b";
+}
+.icon-phoneplay:before {
+  content: "\e900";
+}
+.icon-task:before {
+  content: "\e919";
+}
+.icon-acitve:before {
+  content: "\e91d";
+}
+.icon-buyp:before {
+  content: "\e91e";
+}
+.icon-labby:before {
+  content: "\e91f";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-clock1:before {
+  content: "\e94e";
+}
+.icon-user:before {
+  content: "\e901";
+}
+.icon-speak:before {
+  content: "\e902";
+}
+.icon-clock:before {
+  content: "\e903";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-notice:before {
+  content: "\e905";
+}
+.icon-dollar-coin-on-hand:before {
+  content: "\e907";
+}
+.icon-dices:before {
+  content: "\e906";
+}
+.icon-coins-stacks-and-banknotes:before {
+  content: "\e908";
+}
+.icon-coins-stack:before {
+  content: "\e909";
+}
+.icon-icon:before {
+  content: "\e917";
+}
+.icon-clock2:before {
+  content: "\e916";
+}
+.icon-contract:before {
+  content: "\e915";
+}
+.icon-user2:before {
+  content: "\e914";
+}
+.icon-world:before {
+  content: "\e913";
+}
+.icon-home:before {
+  content: "\e912";
+}
+.icon-tags:before {
+  content: "\e911";
+}
+.icon-speech-message:before {
+  content: "\e910";
+}
+.icon-money-bag-with-dollar-symbol:before {
+  content: "\e90f";
+}
+.icon-male-user-shadow:before {
+  content: "\e90e";
+}
+.icon-audio-speaker-on:before {
+  content: "\e90d";
+}
+.icon-locked-padlock:before {
+  content: "\e90c";
+}
+.icon-gift:before {
+  content: "\e90b";
+}
+.icon-smartphone-call:before {
+  content: "\e90a";
+}
+.icon-verified-protection:before {
+  content: "\e918";
+}
+.icon-gamei021:before {
+  content: "\e91a";
+}
